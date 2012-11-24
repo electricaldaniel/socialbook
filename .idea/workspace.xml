@@ -50,7 +50,10 @@
         <entry file="file://$PROJECT_DIR$/app/views/statuses/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="12" selection-start="233" selection-end="233" vertical-scroll-proportion="-9.375">
-              <folding />
+              <folding>
+                <marker date="1353690948000" expanded="true" signature="36:88" placeholder="..." />
+                <marker date="1353690948000" expanded="true" signature="93:141" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -510,7 +513,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="272" y="22" width="1074" height="869" extended-state="0" />
+    <frame x="272" y="22" width="1074" height="869" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -660,7 +663,10 @@
     <entry file="file://$PROJECT_DIR$/app/views/statuses/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="12" selection-start="233" selection-end="233" vertical-scroll-proportion="-9.375">
-          <folding />
+          <folding>
+            <marker date="1353690948000" expanded="true" signature="36:88" placeholder="..." />
+            <marker date="1353690948000" expanded="true" signature="93:141" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
