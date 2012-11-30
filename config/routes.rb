@@ -1,19 +1,29 @@
 Treebook::Application.routes.draw do
+<<<<<<< HEAD
+=======
+  get "profiles/show"
+
+>>>>>>> Generated profile controller
 devise_for :users
 
   devise_scope :user do
     get 'register', to: 'devise/registrations#new', as: :register
     get 'login', to: 'devise/sessions#new', as: :login
     get 'logout', to: 'devise/sessions#destroy', as: :logout
+<<<<<<< HEAD
 
     #get '/:id', to: 'profiles#show', as: :profile
 
   # get '/:id', to: 'profiles#show', as: :profile
 
+=======
+   # get '/:id', to: 'profiles#show', as: :profile
+>>>>>>> Generated profile controller
   end
 
 
   resources :statuses
+<<<<<<< HEAD
 
   #get 'feed', to: "statuses#index", as: :feed
   #root :to => "statuses#index"
@@ -25,6 +35,12 @@ devise_for :users
 
  # get '/:id', to: 'profiles#show'
 
+=======
+  get 'feed', to: "statuses#index", as: :feed
+  root :to => 'statuses#index'
+
+  #get '/:id', to: 'profiles#show'
+>>>>>>> Generated profile controller
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
