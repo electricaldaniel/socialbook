@@ -39,6 +39,9 @@ devise_for :users
   get 'feed', to: "statuses#index", as: :feed
   root :to => 'statuses#index'
 
+  get '/:id', to: 'profiles#show'
+
+
   #get '/:id', to: 'profiles#show'
 >>>>>>> Generated profile controller
 
